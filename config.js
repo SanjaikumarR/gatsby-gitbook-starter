@@ -9,7 +9,7 @@ const config = {
     logo: '	https://techdocs.cyware.com/css/image/portal-logo.svg',
     logoLink: 'https://techdocs.cyware.com/css/image/portal-logo.svg',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "Internal Docs",
     githubUrl: 'https://github.com/SanjaikumarR/gatsby-gitbook-starter',
     helpUrl: '',
     tweetText: '',
@@ -29,8 +29,8 @@ const config = {
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
-      indexName: '',
+      enabled: true,
+      indexName: '/content/index.mdx',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
