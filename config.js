@@ -44,6 +44,7 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
+    links: [{ text: 'TechDocs', link: 'https://techdocs.cyware.com/?lang=en' }],
     frontLine: false,
     ignoreIndex: true,
     title:
