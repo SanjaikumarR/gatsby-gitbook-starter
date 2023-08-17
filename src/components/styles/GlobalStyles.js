@@ -516,9 +516,9 @@ export const baseStyles = css`
   .titleWrapper {
     display: flex;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(230, 236, 241);
-    margin-bottom: 32px;
+    margin-bottom: 20px;
   }
 
   .gitBtn {
