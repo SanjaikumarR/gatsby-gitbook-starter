@@ -9,7 +9,7 @@ const config = {
     logo: '	https://techdocs.cyware.com/css/image/portal-logo.svg',
     logoLink: 'https://techdocs.cyware.com/css/image/portal-logo.svg',
     title:
-      "Internal Docs",
+      "",
     githubUrl: 'https://github.com/SanjaikumarR/gatsby-gitbook-starter',
     helpUrl: '',
     tweetText: '',
