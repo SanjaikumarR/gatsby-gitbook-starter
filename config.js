@@ -1,32 +1,19 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://cyware.com',
+    siteUrl: 'https://internal-techdocs.cyware.com',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
     logo: '	https://techdocs.cyware.com/css/image/portal-logo.svg',
-    logoLink: 'https://techdocs.cyware.com/css/image/portal-logo.svg',
+    logoLink: 'https://cyware.com',
     title:
       "",
     githubUrl: 'https://github.com/SanjaikumarR/gatsby-gitbook-starter',
     helpUrl: '',
     tweetText: '',
-    social: `<li>
-		    <a href="" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
+    social: ``,
     links: [{ text: '', link: '' }],
     search: {
       enabled: true,
@@ -55,7 +42,7 @@ const config = {
     description: 'Documentation for internal audience. ',
     ogImage: null,
     docsLocation: 'https://github.com/SanjaikumarR/gatsby-gitbook-starter/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: 'https://cyware-techdocs.s3.amazonaws.com/favicon.png',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
