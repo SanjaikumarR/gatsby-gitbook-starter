@@ -227,7 +227,8 @@ export const baseStyles = css`
     line-height: 1.5;
     font-weight: 300;
     color: #fff !important;
-    margin-top: 16px;
+    margin-top: 1px;
+    margin-left: 5px;
     text-transform: uppercase;
   }
   .headerTitle a {

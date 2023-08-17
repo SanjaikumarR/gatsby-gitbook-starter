@@ -30,7 +30,7 @@ const config = {
     links: [{ text: '', link: '' }],
     search: {
       enabled: true,
-      indexName: '/content/index.mdx',
+      indexName: 'index.mdx',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
       algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
@@ -48,13 +48,13 @@ const config = {
     frontLine: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "Internal Docs",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Cyware Internal Documentation',
+    description: 'Documentation for internal audience. ',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/SanjaikumarR/gatsby-gitbook-starter/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
